@@ -12,10 +12,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <Card class="w-5">
+    <Card class="card">
         <template #title>Sub-Select</template>
         <template #content>
-            <Divider layout="horizontal"/>
             <div class="flex flex-column">
                 <span class="mb-5">Deseja escolher alguma característica da cidade?</span>
                 <div class="flex mb-5 w-full justify-content-between">
@@ -39,3 +38,20 @@ onMounted(() => {
         </template>
     </Card>
 </template>
+
+<style scoped>
+
+.card {
+    width: 50vw;
+    position: absolute;
+    z-index: 2;
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 80vw;
+        font-size: 12px;
+    }
+}
+
+</style>

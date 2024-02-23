@@ -4,8 +4,10 @@ import LeafletMap from "~/components/map/LeafletMap.vue";
 </script>
 
 <template>
-    <div class="h-screen flex justify-content-center align-items-center">
+    <header class="flex justify-content-center">
         <sub-select-card/>
+    </header>
+    <section class="relative z-1">
         <LeafletMap/>
-    </div>
+    </section>
 </template>
