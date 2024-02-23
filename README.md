@@ -16,6 +16,6 @@ Uma solução para casos onde se precisa de um filtro do filtro 🤣
 - Primeflex
 - Pinia
 
- <a href="https://sub-select.vercel.app" target="_blank">Demo</a> <br>
+ <a href="https://sub-select.netlify.app/" target="_blank">Demo</a> <br>
  <a href="https://www.linkedin.com/posts/emily-july_voc%C3%AA-j%C3%A1-precisou-de-um-filtro-do-filtro-activity-7166517445602537472-uLxN?utm_source=share&utm_medium=member_desktop
 " target="_blank">Publicação no Linkedin com vídeo explicativo</a> 
